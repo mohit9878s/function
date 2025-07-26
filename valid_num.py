@@ -25,7 +25,7 @@ def valid_num(number,starting_first_digit=0):
             num = int(num)
         except ValueError:
             return 0
-        if str(num)[:1] > num_1st_str:
+        if str(num)[:1] >= num_1st_str:
             return num
         else:
             return 0
